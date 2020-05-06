@@ -156,5 +156,5 @@ https://kknews.cc/zh-tw/news/agl8n3x.html
 [1]:www.google.com "你就知道" 
 [2]:www.google.com "你就知道" 
 
-
+$E=mc^2$
 [TOC]
