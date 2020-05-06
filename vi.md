@@ -1,11 +1,3 @@
-常用的地址：[google](www.google.com "你就知道" )
-
-就是常用的地址：[google][1]
-
-就是常用的地址：[google][2]
-
-[1]:www.google.com "你就知道" 
-[2]:www.google.com "你就知道" 
 
 ## 基礎知識
 
@@ -154,6 +146,14 @@ https://kknews.cc/zh-tw/news/agl8n3x.html
 
 
 ***
+常用的地址：[google](www.google.com "你就知道" )
+
+就是常用的地址：[google][1]
+
+就是常用的地址：[google][2]
+
+[1]:www.google.com "你就知道" 
+[2]:www.google.com "你就知道" 
 
 
 [TOC]
