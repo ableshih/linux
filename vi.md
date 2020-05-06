@@ -2,6 +2,7 @@
 
 就是常用的地址：[google][1]
 就是常用的地址：[google][2]
+
 [1]:www.google.com "你就知道" 
 [2]:www.google.com "你就知道" 
 
