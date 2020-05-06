@@ -1,6 +1,3 @@
-
-
-
 # 常用
 ```
 :wq
@@ -16,63 +13,72 @@ k 上
 l 右
 ```
 
+# 三種模式
+### 一般指令模式 (command mode)預設
+### 編輯模式 (insert mode)
+### 指令列命令模式 (command-line mode)
+
+
+
 
 ## 一般指令模式 (command mode)預設
 
 ## 編輯模式 (insert mode)
 ```
-
 在一般指令模式中可以進行刪除、複製、貼上等等的動作，但是卻無法編輯文件內容的！ 要等到你按下『i, I, o, O, a, A, r, R』等任何一個字母之後才會進入編輯模式。注意了！通常在 Linux 中，按下這些按鍵時，在畫面的左下方會出現『 INSERT 或 REPLACE 』的字樣，此時才可以進行編輯。而如果要回到一般指令模式時， 則必須要按下『Esc』這個按鍵即可退出編輯模式。
 ```
 
-
 ## 指令列命令模式 (command-line mode)
 ```
-
 在一般模式當中，輸入『 : / ? 』三個中的任何一個按鈕，就可以將游標移動到最底下那一列。在這個模式當中， 可以提供你『搜尋資料』的動作，而讀取、存檔、大量取代字元、離開 vi 、顯示行號等等的動作則是在此模式中達成的！
 ```
 
 
 
+
 # 解決 左下角狀態列中無法出現 –INSERT- 的字樣
 ```
-
 test01@linux:~$ vi ~/.vimrc
 
 set showmode (輸入這行 -> esc -> :wq 離開)
 
 test01@linux:~$ vi
 ```
+## 不改設定檔 (每次都要)
+```
+進 vi 程式
 
-## 本地
+:set showmode (指令列命令模式)
 ```
 
-~$ vi ~/.vimrc
+## 改設定檔 (本地)
+```
+test01@linux:~$ sudo vi ~/.vimrc (開啟後內容是空的)
 ```
 
-## 全堿
+## 改設定檔 (全堿)
+```
+test01@linux:~$ sudo vi /etc/vim/vimrc 
 ```
 
-~$ sudo vi /etc/vim/vimrc
+## 改設定檔 (出現錯誤)
+```
+改了沒效 或 出現錯誤 要裝 : vim
+sudo apt install vim
 ```
 
-
-
+## 改設定檔 (內容值)
 ```
-
---------------------------------------------
 "基本配置
-[dmtsai@study ~]$ vim ~/.vimrc
 "這個檔案的雙引號 (") 是註解
 set hlsearch            "高亮度反白
 set backspace=2         "可隨時用倒退鍵刪除
 set autoindent          "自動縮排
 set ruler               "可顯示最後一列的狀態
-set showmode            "左下角那一列的狀態
+set showmode            "左下角那一列的狀態 要顯示 –INSERT- 的字樣
 set nu                  "可以在每一列的最前面顯示行號啦！
 set bg=dark             "顯示不同的底色色調
-syntax on               "進行語法檢驗，顏色顯示。
-
+syntax on               "高度顯示 進行語法檢驗，顏色顯示。
 
 "備份相關配置
 set nobackup             
@@ -90,16 +96,6 @@ https://magiclen.org/vimrc/
 ```
 
 
-# 左下角狀態列中無法出現 –INSERT- 的字樣
-```
-
-開啟/關閉vim的模式提示
-使用以下指令可以開啟vim的模式提示：
-
-:set showmode
-:set noshowmode
-
-```
 
 
 
@@ -144,6 +140,26 @@ https://magiclen.org/vimrc/
 顯示游標所在的列
 開啟/關閉vim的程式碼語法高亮支援
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## INSERT mode 不可用鍵盤 上下左右鍵 (大部份鍵盤功能鍵都不可用)
