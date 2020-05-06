@@ -34,7 +34,8 @@ l 右
 ```
 
 ## 編輯模式 (insert mode)
-```
+``` JavaScript
+var i = 1, y =2;
 
 要等到你按下『i, I, o, O, a, A, r, R』等任何一個字母之後才會進入編輯模式。
 注意了！通常在 Linux 中，按下這些按鍵時，在畫面的左下方會出現『 INSERT 或 REPLACE 』的字樣，
