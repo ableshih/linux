@@ -1,6 +1,7 @@
 常用的地址：[google](www.google.com "你就知道" )
 
 就是常用的地址：[google][1]
+
 [1]:www.google.com "你就知道" 
 
 ## 基礎知識
