@@ -1,7 +1,8 @@
 
 ## 基礎知識
-
 ```
+最好安裝 vim 增強功能
+sudo apt install vim
 ```
 
 # 常用操作
