@@ -158,7 +158,11 @@ https://kknews.cc/zh-tw/news/agl8n3x.html
 
 ---
 
-$E=mc^2$
+
 
 ---
 [TOC]
+
+
+
+$$E=mc^2$$
