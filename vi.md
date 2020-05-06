@@ -14,9 +14,9 @@ l 右
 ```
 
 # 三種模式
-### 一般指令模式 (command mode)預設
-### 編輯模式 (insert mode)
-### 指令列命令模式 (command-line mode)
+1. 一般指令模式 (command mode)預設
+2. 編輯模式 (insert mode)
+3. 指令列命令模式 (command-line mode)
 
 
 
