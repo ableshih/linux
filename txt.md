@@ -1,5 +1,5 @@
 
-#### 與Ubuntu共舞：中文環境調校x雲端共享x Libreoffice x 架站 x dropbox自己架（隨書附贈教學影片與Ububntu安
+###### 與Ubuntu共舞：中文環境調校x雲端共享x Libreoffice x 架站 x dropbox自己架（隨書附贈教學影片與Ububntu安
 ```
 目錄 第1章｜說在前頭：談作業系統
 第2章｜環境打造：Windows 10 + VirtualBox
