@@ -1,7 +1,9 @@
 # Windows Putty 連線 Ubuntu 虛擬機器
+[原始](http://seansharingblog.blogspot.com/2019/05/ubuntu-ssh-server-install.html "Putty WinToUbuntu" )
+
 
 ```
-http://seansharingblog.blogspot.com/2019/05/ubuntu-ssh-server-install.html
+
 
 Ubuntu SSH Service SSH 遠端連線服務安裝與使用
 
