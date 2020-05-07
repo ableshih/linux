@@ -1,6 +1,6 @@
 # Windows Putty 連線 Ubuntu 虛擬機器
 [原始](http://seansharingblog.blogspot.com/2019/05/ubuntu-ssh-server-install.html "Putty WinToUbuntu" )
-
+[![](http://img.youtube.com/vi/jNQXAC9IVRw/0.jpg)](http://www.youtube.com/watch?v=jNQXAC9IVRw)
 
 ```
 
