@@ -47,6 +47,12 @@
 範例
 [顯示](https://github.com/ableshih "ableshih" )
 ```
+# 圖片
+![圖](https://d.rimg.com.tw/ahd/230x26_1587957147.jpg)
+```
+說明
+![圖](圖片網址)
+```
 
 # 代碼
 ```javascript
