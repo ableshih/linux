@@ -1,9 +1,8 @@
-
 # 時序圖
 ```sequence
-a->b: c
-d: e
-f-->g: h
+air->book: c
+d book: e
+book-->air: h
 ```
 
 $E = 2^2$
