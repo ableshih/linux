@@ -214,7 +214,7 @@ ykk
 [G2][2]
 [G3][3]
 
-[1]:https://www.google.com "百度一下，你就知道" 
+[1]:https://www.google.com "谷哥" 
 [2]:https://www.google.com.tw/imghp "圖片" 
 [3]:https://translate.google.com.tw/ "翻譯" 
 ```
