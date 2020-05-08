@@ -1,5 +1,19 @@
 
 
+```flow 
+
+s=start:開始 
+e=end:結束 
+o=operation:操作項
+
+s-o-e 
+
+```
+
+
+
+
+
 # 列表
 1. 第一   
 2. 第二   
