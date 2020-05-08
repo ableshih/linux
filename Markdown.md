@@ -16,12 +16,20 @@
 
 
 ```
-3.1.1 說明
-使用html代碼實現頁內跳轉。在要跳轉到的位置定義個錨<span id = "jump">hehe</span>，然後使用[你好](#jump)將你好設置為一單擊即跳轉到hehe所在位置的效果。
+範例
+[你好](#jump)    
+[你好1](#jump1)    
+[你好2](#jump2)    
 
-3.1.2 示例
-[你好](#jump)
 <span id = "jump">hehe</span>
+<span id = "jump1">hehe1</span>
+<span id = "jump2">hehe2</span>
+
+說明
+使用html代碼實現頁內跳轉
+在要跳轉到的位置定義個錨<span id = "jump">hehe</span>
+然後使用[你好](#jump)將你好設置為一單擊即跳轉到hehe所在位置的效果
+
 ```
 
 
