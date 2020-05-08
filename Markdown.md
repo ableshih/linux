@@ -48,10 +48,13 @@
 [顯示](https://github.com/ableshih "ableshih" )
 ```
 # 圖片
-![圖](https://d.rimg.com.tw/ahd/230x26_1587957147.jpg)
+![圖](https://d.rimg.com.tw/ahd/230x26_1587957147.jpg "1234567")
 ```
 說明
-![圖](圖片網址)
+![如果圖片無法顯示時顯示的文字](圖片網址 "顯示標題")
+
+範例
+![圖](https://d.rimg.com.tw/ahd/230x26_1587957147.jpg "1234567")
 ```
 
 # 代碼
