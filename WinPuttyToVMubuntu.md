@@ -1,3 +1,44 @@
+[原始](https://kanchengzxdfgcv.blogspot.com/2015/10/putty-windows-ubuntu-oracle-vm.html "Putty WinToUbuntu" )
+
+# 利用 Putty Windows實體電腦 連線 Ubuntu虛擬機器 - Oracle VM VirtualBox
+```
+[要先安裝 ssh server]
+
+Ubuntu (找到IP)
+$ ifconfig
+
+Windows 找到IP
+> ipconfig
+
+vm stop (關機)
+
+設定
+如上我們看到虛擬機器中用的是預設 NAT ，內部 IP 是 10.0.2.15
+
+而 VirtualBox給我們 Windows實體機器用的虛擬乙太網路卡 IP 為 192.168.56.1
+
+簡單的做法是用連結轉送的方式，將 VM 關機
+
+VirtualBox 在 該VM上選 "設定" -> "網路" -> "進階" -> "連結阜轉送"
+
+將協定、主客體IP、port都設定好
+
+主機IP 192.168.56.1 port 22
+客體IP 10.0.2.15 port 22
+
+sudo apt update    # 更新套件庫資料清單
+sudo apt upgrade   # 更新套件
+sudo apt install openssh-server (裝 ssh server)
+
+確定儲存後，用 putty 連上 IP (192.168.56.1)，Port (22) ，選擇 open 按 "是"，輸入虛擬機器帳密...即可連線
+
+輸入 帳號 密碼
+```
+
+
+
+
+
 # Windows Putty 連線 Ubuntu 虛擬機器
 [原始](http://seansharingblog.blogspot.com/2019/05/ubuntu-ssh-server-install.html "Putty WinToUbuntu" )
 [123](http://img.youtube.com/vi/jNQXAC9IVRw/0.jpg)
@@ -24,42 +65,10 @@ openssh-server 的選框變成實心的，表示安裝完成了。
 sudo service ssh status
 sudo /etc/init.d/ssh status
 sudo systemctl status ssh
-```
-
-----------------------------------
-[原始](https://kanchengzxdfgcv.blogspot.com/2015/10/putty-windows-ubuntu-oracle-vm.html "Putty WinToUbuntu" )
 
 
-# 利用 Putty Windows實體電腦 連線 Ubuntu虛擬機器 - Oracle VM VirtualBox
-```
-
-[要先安裝 ssh server]
-
-vm stop
-
-Ubuntu 找到IP
-$ ifconfig
-
-Windows 找到IP
-> ipconfig
-
-
-如上我們看到虛擬機器中用的是預設 NAT ，內部 IP 是 10.0.2.15
-
-而 VirtualBox給我們 Windows實體機器用的虛擬乙太網路卡 IP 為 192.168.56.1
-
-簡單的做法是用連結轉送的方式，將 VM 關機
-
-VirtualBox 在 該VM上選 "設定" -> "網路" -> "進階" -> "連結阜轉送"
-
-將協定、主客體IP、port都設定好
-
-主機IP 192.168.56.1 port 22
-客體IP 10.0.2.15 port 22
-
-確定儲存後，用 putty 連上 IP (192.168.56.1)，Port (22) ，選擇 open 按 "是"，輸入虛擬機器帳密...即可連線
 
 
 sudo service ssh status
-
 ```
+
