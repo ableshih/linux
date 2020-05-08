@@ -32,7 +32,32 @@
 
 ```
 
+# 刪除線
+~~AAAAAA~~
+```
+範例
+~~AAAAAA~~
 
+說明
+使用~~表示刪除線
+```
+# 區塊引用
+>aaaaaaaa
+>>aaaaaaaa
+    
+>aaaaaaaa    
+>>aaaaaaaa
+```
+範例
+>aaaaaaaa
+>>aaaaaaaa
+    
+>aaaaaaaa    
+>>aaaaaaaa
+
+說明
+在段落的第一行最前面加">"
+```
 
 
 
@@ -54,38 +79,13 @@ AAAA[^footer1]BBBB
 ```
 
 
-# 刪除線
-~~AAAAAA~~
-```
-範例
-~~AAAAAA~~
-
-說明
-使用~~表示刪除線
-```
 
 # 加粗、列表、代碼區塊
 >**AA**    
 >*AA    
 >*AA
 
-# 區塊引用
->aaaaaaaa
->>aaaaaaaa
-    
->aaaaaaaa    
->>aaaaaaaa
-```
-範例
->aaaaaaaa
->>aaaaaaaa
-    
->aaaaaaaa    
->>aaaaaaaa
 
-說明
-在段落的第一行最前面加">"
-```
 
 
 # 待辦事宜Todo 列表
