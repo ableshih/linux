@@ -2,7 +2,7 @@
 
 # 主機 Win10 用 Putty 連線到 Ubuntu 虛擬機器 VirtualBox
 
-  1. 查 IP addr(#IP)
+  1. 查 IP addr[](#IP)
   2. 關閉虛擬機
   3. 設定 VirtualBox
   4. 開啟虛擬機
