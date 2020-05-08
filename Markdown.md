@@ -55,9 +55,6 @@ if (age > 18) {
 } else {
     status = 'minor';
 }
-
-var canvas = document.getElementById("canvas");
-var context = canvas.getContext("2d");
 ```
 
 ```
@@ -66,8 +63,11 @@ var context = canvas.getContext("2d");
 
 範例
 ```javascript
-var canvas = document.getElementById("canvas");
-var context = canvas.getContext("2d");
+if (age > 18) {
+    status = 'adult';
+} else {
+    status = 'minor';
+}
 ```
 ```
 
