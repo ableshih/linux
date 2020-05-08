@@ -1,6 +1,6 @@
 [原始](https://kanchengzxdfgcv.blogspot.com/2015/10/putty-windows-ubuntu-oracle-vm.html "Putty WinToUbuntu" )
 
-# 利用 Putty Windows實體電腦 連線 Ubuntu虛擬機器 - Oracle VM VirtualBox
+# 主機 Win10 用 Putty 連線到 Ubuntu 虛擬機器 VirtualBox
 ```
 [要先安裝 ssh server]
 
