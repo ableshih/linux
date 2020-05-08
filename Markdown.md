@@ -1,4 +1,22 @@
 
+
+# 跳轉
+[你好](#jump)
+<span id = "jump">hehe</span>
+```
+3.1.1 說明
+使用html代碼實現頁內跳轉。在要跳轉到的位置定義個錨<span id = "jump">hehe</span>，然後使用[你好](#jump)將你好設置為一單擊即跳轉到hehe所在位置的效果。
+
+3.1.2 示例
+[你好](#jump)
+<span id = "jump">hehe</span>
+```
+
+
+
+
+
+
 # 註腳
 这是一个注脚测试[^footer1]。
 [^footer1]: 这是一个测试，用来阐释注脚。
