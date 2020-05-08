@@ -1,4 +1,29 @@
 
+# 代碼
+```javascript
+if (age > 18) {
+    status = 'adult';
+} else {
+    status = 'minor';
+}
+```
+
+```
+說明
+加程式語言
+
+範例
+```javascript
+if (age > 18) {
+    status = 'adult';
+} else {
+    status = 'minor';
+}```
+
+
+```
+
+
 # 標題
 ## 標題
 ### 標題
@@ -57,30 +82,6 @@
 ![圖](https://d.rimg.com.tw/ahd/230x26_1587957147.jpg "1234567")
 ```
 
-# 代碼
-```javascript
-if (age > 18) {
-    status = 'adult';
-} else {
-    status = 'minor';
-}
-```
-#
-```
-說明
-加程式語言
-
-範例
-```javascript
-if (age > 18) {
-    status = 'adult';
-} else {
-    status = 'minor';
-}
-```
-
-```
-```
 
 
 
