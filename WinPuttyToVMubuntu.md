@@ -1,6 +1,14 @@
 [原始](https://kanchengzxdfgcv.blogspot.com/2015/10/putty-windows-ubuntu-oracle-vm.html "Putty WinToUbuntu" )
 
 # 主機 Win10 用 Putty 連線到 Ubuntu 虛擬機器 VirtualBox
+
+1. 查 IP addr
+2. 關閉虛擬機
+3. 設定 VirtualBox
+4. 開啟虛擬機
+5. 安裝 ssh server
+6. Win10 安裝 Putty
+7. 連到 虛擬機
 ```
 [要先安裝 ssh server]
 
