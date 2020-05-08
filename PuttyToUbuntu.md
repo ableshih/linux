@@ -4,10 +4,10 @@
 
   1. [查 IP addr](#IP)
   2. 關閉虛擬機
-  3. 設定 VirtualBox
+  3. [設定 VirtualBox](#設定)
   4. 開啟虛擬機
-  5. 安裝 ssh server
-  6. Win10 安裝 Putty
+  5. [安裝 ssh server](#ssh)
+  6. [Win10 安裝 Putty](#Putty)
   7. 連到 虛擬機
 
 [要先安裝 ssh server]
