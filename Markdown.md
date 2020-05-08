@@ -1,7 +1,7 @@
 
 # 註腳
-AAAA[^footer]BBBB    
-[^footer]:CCCC
+AAAA[^footer1]BBBB    
+[^footer1]:CCCC
 ```
 2.3.1 說明
 使用[^footer] 表示註腳。
