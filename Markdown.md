@@ -50,6 +50,12 @@
 
 # 代碼
 ```javascript
+if (age > 18) {
+    status = 'adult';
+} else {
+    status = 'minor';
+}
+
 var canvas = document.getElementById("canvas");
 var context = canvas.getContext("2d");
 ```
