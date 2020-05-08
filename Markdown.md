@@ -1,31 +1,36 @@
 
-
 # 標題
 ## 標題
 ### 標題
 #### 標題
 ##### 標題
 ###### 標題
-这是高阶标题（效果和一级标题一样 ）
-========
-这是次阶标题（效果和二级标题一样）
---------------
 ```
-# 標題
-## 標題
-### 標題
-#### 標題
-##### 標題
-###### 標題
-
+說明
 使用 # 表示標題，
 一級標題使用一個 #，
 二級標題使用兩個 ##，
 以此類推，共有 六級 標題。
 
-使用=====表示高階標題，使用---------表示次階標題。
+範例
+# 標題
+## 標題
+### 標題
+#### 標題
+##### 標題
+###### 標題
+```
 
+这是高阶标题（效果和一级标题一样 ）
+========
+这是次阶标题（效果和二级标题一样）
+--------------
+```
+說明
+使用=====表示高階標題，
+使用---------表示次階標題。
 
+範例
 这是高阶标题（效果和一级标题一样 ）
 ========
 这是次阶标题（效果和二级标题一样）
@@ -33,14 +38,33 @@
 ```
 
 # 超連結
-[顯示](https://github.com/ableshih "ableshih" )
-[顯示文字](網址 "氣球文字" )
+[顯示文字](https://github.com/ableshih "ableshih" )
+
 ```
+說明
 [顯示文字](網址 "氣球文字" )
 
+範例
 [顯示](https://github.com/ableshih "ableshih" )
-[參考2](http://seansharingblog.blogspot.com/2019/05/ubuntu-ssh-server-install.html "Putty WinToUbuntu" )
 ```
+
+# 代碼
+```javascript
+var canvas = document.getElementById("canvas");
+var context = canvas.getContext("2d");
+```
+
+```
+說明
+使用 ```加程式語言
+
+範例
+```javascript
+var canvas = document.getElementById("canvas");
+var context = canvas.getContext("2d");
+```
+```
+
 
 
 
