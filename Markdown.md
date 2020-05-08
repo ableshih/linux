@@ -1,5 +1,9 @@
 
 # 註腳
+这是一个注脚测试[^footer1]。
+[^footer1]: 这是一个测试，用来阐释注脚。
+
+
 AAAA[^footer1]BBBB    
 [^footer1]:CCCC
 ```
