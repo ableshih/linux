@@ -6,9 +6,9 @@
 [G2][2]
 [G3][3]
 
-[1]:www.google.com "百度一下，你就知道" 
+[1]:https://www.google.com "百度一下，你就知道" 
 [2]:https://www.google.com.tw/imghp "圖片" 
-[3]:translate.google.com.tw/ "翻譯" 
+[3]:https://translate.google.com.tw/ "翻譯" 
 ```
 [G1][1]
 [G2][2]
