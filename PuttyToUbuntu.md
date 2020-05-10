@@ -72,7 +72,7 @@ sudo service ssh status
   3. 開機
   4. [安裝 ssh server](#ssh)
   5. [查找 IP](##查找IP)
-  6. [PuttyLink](#PuttyLink)
+  6. [Putty Link](#PuttyLink)
   (動態 IP)
 
 
