@@ -9,7 +9,7 @@
   5. [安裝 ssh server](#ssh)
   6. [Win10 安裝 Putty](#Putty)
   7. 連到 虛擬機
-  # 另一種方法較簡單(#簡單)
+  ## [另一種方法較簡單](#簡單)
 
 [要先安裝 ssh server]
 
