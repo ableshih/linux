@@ -1,7 +1,7 @@
 
 
-# 主機 Win10 用 Putty 連線到 虛擬機器 (固定 IP)
-# Win10 Putty to VirtualBox Ubuntu
+# 主機 Win10 用 Putty 連線到 虛擬機器 (固定 IP)  
+ Win10 Putty to VirtualBox Ubuntu
   1. [查 IP addr](#IP)
   2. 關閉虛擬機
   3. [設定 VirtualBox](#設定)
