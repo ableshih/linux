@@ -1,6 +1,6 @@
 
 
-# 主機 Win10 用 Putty 連線到 Ubuntu 虛擬機器 VirtualBox
+# 主機 Win10 用 Putty 連線到 Ubuntu 虛擬機器 VirtualBox (固定 IP)
 
   1. [查 IP addr](#IP)
   2. 關閉虛擬機
@@ -9,6 +9,7 @@
   5. [安裝 ssh server](#ssh)
   6. [Win10 安裝 Putty](#Putty)
   7. 連到 虛擬機
+  # 另一種方法較簡單(#簡單)
 
 [要先安裝 ssh server]
 
@@ -62,6 +63,27 @@ sudo systemctl status ssh
 
 sudo service ssh status
 
+```
+
+# 簡單 (動態 IP)
+  1. 關機
+  2. VirtualBox給我們
+      設定 -> 網路 > 啟用網路卡 > 附加到 > NAT 改成 橋接介面卡
+  3. 開機
+  4. 安裝 ssh server (#ssh)
+  5. 查找 IP (##查找IP)
+  6. PuttyLink (#PuttyLink)
+
+
+## 查找IP
+"
+Ubuntu (找到IP)
+$ ifconfig  
+"
+## PuttyLink
+```
+查到的 IP 輸入到 putty (假設 IP:192.168.1.54 port:22)
+輸入虛擬機器帳密...即可連線
 ```
 
 
