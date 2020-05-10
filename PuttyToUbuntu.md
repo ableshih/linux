@@ -70,9 +70,9 @@ sudo service ssh status
   2. VirtualBox給我們
       設定 -> 網路 > 啟用網路卡 > 附加到 > NAT 改成 橋接介面卡
   3. 開機
-  4. [安裝 ssh server] (#ssh)
-  5. [查找 IP] (##查找IP)
-  6. [PuttyLink] (#PuttyLink)
+  4. [安裝 ssh server](#ssh)
+  5. [查找 IP](##查找IP)
+  6. [PuttyLink](#PuttyLink)
   (動態 IP)
 
 
