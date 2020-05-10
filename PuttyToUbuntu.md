@@ -77,10 +77,11 @@ sudo service ssh status
 
 
 ## 查找IP
-"
-Ubuntu (找到IP)
+```
+Ubuntu (找到IP)  
 $ ifconfig  
-"
+```
+
 ## PuttyLink
 ```
 查到的 IP 輸入到 putty (假設 IP:192.168.1.54 port:22)
