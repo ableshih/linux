@@ -71,7 +71,7 @@ sudo service ssh status
       設定 -> 網路 > 啟用網路卡 > 附加到 > NAT 改成 橋接介面卡
   3. 開機
   4. [安裝 ssh server](#ssh)
-  5. [查找 IP](##查找IP)
+  5. [查找 IP](#查找IP)
   6. [Putty Link](#PuttyLink)
   ## 動態 IP (讓 分享器配 IP) (雙網模式)
 ```
