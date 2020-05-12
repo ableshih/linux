@@ -73,7 +73,7 @@ sudo service ssh status
   4. [安裝 ssh server](#ssh)
   5. [查找 IP](#查找IP)
   6. [Putty Link](#PuttyLink)
-  ## 動態 IP (讓 分享器配 IP) (雙網模式)
+  ## 動態 IP (讓 分享器配 IP) (雙外網模式)
 ```
 
 
