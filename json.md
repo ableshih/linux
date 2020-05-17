@@ -31,9 +31,9 @@ jupyter notebook
 ```
 例如 這一筆資料 是用 {}, 框起來，這一筆資料裡面有四組資料用 , 隔開
 有幾種方式將資料帶入
-1. 變數 接 直接 coed 裡的 json raw dada
-2. 變數 接 檔案 json 裡的 json raw dada
-3. 變數 接 直接 url  裡的 json raw dada
+1. 變數 接 code 裡的 json raw dada
+2. 變數 接 載入 json 檔案
+3. 變數 接 到網站抓 url  裡的 json raw dada
 -----------------------------------------
 ```
 # 解釋 一筆 json 內容
@@ -69,7 +69,7 @@ populations.json
 ```
 
 # 範例
-## 1. 變數 接 直接 coed 裡的 json raw dada # 本地 json 檔 # ch1_14.py
+## 變數 接 code 裡的 json raw dada # 本地 json 檔 # ch1_14.py
 ```
 ====================
 import json
@@ -86,7 +86,7 @@ for getData in getDatas:
               '人口數 =', population)
 ====================
 ```
-## 2. 變數 接 檔案 json 裡的 json raw dada
+## 變數 接 載入 json 檔案
 ```
 ====================
 import json
@@ -105,7 +105,7 @@ for getData in getDatas:
               '人口數 =', population)
 ====================
 ```
-## 3. 變數 接 直接 url  裡的 json raw dada
+## 變數 接 到網站抓 url  裡的 json raw dada
 ```
 ====================
 import requests
