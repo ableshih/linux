@@ -1,5 +1,56 @@
 
 ```
+jupyter notebook
+
+要用 以系統管理員身份執行
+
+pip install selenium
+pip install beautifulsoup4
+pip install chromedriver
+pip install requests
+
+pip install pysqlite3
+pip install matplotlib
+pip install twstock
+
+pip install requests-html
+
+pip install Scrapy
+
+conda install matplotlib
+
+
+
+# webdriver 的問題
+1. 下載
+	chrome: chromedriver
+	https://chromedriver.chromium.org/downloads
+	https://chromedriver.storage.googleapis.com/index.html?path=81.0.4044.138/
+	https://chromedriver.storage.googleapis.com/81.0.4044.138/chromedriver_win32.zip
+2. 解壓
+3. copy to C:\Users\C940\chromedriver.exe
+   為了省麻煩 copy chromedriver.exe 改名成 geckodriver.exe
+4. 程式裡
+	原 driverPath = 'D:\geckodriver\geckodriver.exe'
+	   browser = webdriver.Firefox(executable_path=driverPath)
+	改 driverPath = 'geckodriver.exe'
+	   browser = webdriver.Chrome(executable_path=driverPath)
+技
+'C:\\Users\\C940\\h7_1.html'
+
+
+參考
+https://freelancerlife.info/zh/blog/python%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2%E6%95%99%E5%AD%B8-selenium%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/
+
+
+
+
+
+
+
+
+```
+```
 
 Spyder
 網頁爬蟲：你也可以輕鬆爬取台灣第一位武漢肺炎確診資訊
