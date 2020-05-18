@@ -1,5 +1,7 @@
 
 pip install selenium  
+pip install beautifulsoup4  
+
 
 # 看 資料類型
 ```
