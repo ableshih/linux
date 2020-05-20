@@ -1,9 +1,9 @@
-[1. 安裝](#安裝)
-[2. Numpy](#Numpy)
-[3. Pandas](#Pandas)
-[4. Matplotlib](#Matplotlib)
-[5. Anaconda](#Anaconda)
-[6. Spyder](#Spyder)
+[1. 安裝](#安裝)  
+[2. Numpy](#Numpy)  
+[3. Pandas](#Pandas)  
+[4. Matplotlib](#Matplotlib)  
+[5. Anaconda](#Anaconda)  
+[6. Spyder](#Spyder)  
 
 
 ## Numpy
