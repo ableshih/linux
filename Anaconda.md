@@ -4,8 +4,57 @@
 [4. Matplotlib](#Matplotlib)  
 [5. Anaconda](#Anaconda)  
 [6. Spyder](#Spyder)  
+[7. webdriver](#webdriver)  
 
 
+## 安裝
+```
+
+開啟
+Anaconda Prompt (anaconda3)
+輸入
+jupyter notebook
+
+安裝套件 要用 以系統管理員身份執行
+
+pip install selenium
+pip install beautifulsoup4
+pip install chromedriver
+pip install requests
+
+pip install pysqlite3
+pip install matplotlib
+pip install twstock
+
+pip install requests-html
+
+pip install Scrapy
+
+conda install matplotlib
+
+
+pip install Scipy
+
+python -m pip install -U pip setuptools
+python -m pip install matplotlib
+
+conda install -c conda-forge tqdm
+
+swifter：加速你的數據處理
+conda install -c conda-forge swifter
+
+
+Anaconda3-2020.02-Windows-x86_64
+
+下載 Anaconda 裝 x64 開不起來 裝 x86 OK
+https://repo.anaconda.com/archive/Anaconda3-2020.02-Windows-x86_64.exe
+https://www.anaconda.com/products/individual
+https://repo.anaconda.com/archive/
+
+
+
+
+```
 ## Numpy
 ```
 https://numpy.org/
@@ -99,29 +148,7 @@ https://medium.com/@weilihmen/python-pandas-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C
 https://medium.com/@weilihmen/python-pandas-%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E6%95%99%E5%AD%B8-%E6%88%90%E7%B8%BE%E8%A1%A8-f6d0ec4f89
 
 
-
-
-
-
-
-
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Anaconda
 ```
@@ -143,10 +170,11 @@ pip install requests-html
 pip install Scrapy
 
 conda install matplotlib
+```
 
-
-
-# webdriver 的問題
+## webdriver
+```
+webdriver 的問題
 1. 下載
 	chrome: chromedriver
 	https://chromedriver.chromium.org/downloads
@@ -166,13 +194,6 @@ conda install matplotlib
 
 參考
 https://freelancerlife.info/zh/blog/python%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2%E6%95%99%E5%AD%B8-selenium%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/
-
-
-
-
-
-
-
 
 ```
 
@@ -219,11 +240,6 @@ https://colab.research.google.com/notebooks/intro.ipynb#recent=true
 
 
 Jupyter Notebook
-
-
-
-
-
 
 
 ```
