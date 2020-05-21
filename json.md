@@ -1,3 +1,10 @@
+
+[1. 安裝](#安裝)
+[2. 型別](#型別)
+[3. 檔案](#來源)  
+[4. 範例](#範例)  
+
+
 Anaconda json
 
 -----------------------------------------
@@ -31,7 +38,7 @@ jupyter notebook
 
 
 
-# json 來源
+# 來源
 
 1. 本地 陣列  
 2. 本地 json file  
@@ -99,16 +106,17 @@ print(data[5]["性別"])
 
 
 
-Json 模組裡的函式介紹 
-[1. dumps](#dumps)
-[2. loads](#loads)
-[3. dump](#dump)
-[4. load](#load)
+# 型別
+Json 模組裡的函式介紹  
+[1. dumps](#dumps)  
+[2. loads](#loads)  
+[3. dump](#dump)  
+[4. load](#load)  
 
 
 
 
-## dumps
+#### dumps
 將 dict 型別的資料轉成 str，直接把 dict 型 寫入 json檔案 會發生報錯
 ```
 import json
@@ -127,7 +135,7 @@ print(jDumps, type(jDumps))
 
 
 
-## loads
+#### loads
 用於將str型別的資料轉成dict  
 ```
 import json
@@ -149,7 +157,7 @@ print(jLoads, type(jLoads))
 
 
 
-## dump
+#### dump
 用於將dict型別的資料轉成str，並寫入成 json檔案  
 ```
 import json  
@@ -175,7 +183,7 @@ print(type(jObj))
 
 
 
-## load
+#### load
 讀取 json 檔案  
 ```
 import json
