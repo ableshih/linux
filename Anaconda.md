@@ -17,15 +17,8 @@
 http://moocs.nccu.edu.tw/course/123/intro  
 
 
-[1. 啟動](#啟動)  
-[2. 安裝](#安裝)  
-[3. 安裝套件](#安裝套件)  
-    *[Numpy](#Numpy)  
-    *[Pandas](#Pandas)  
-    *[Matplotlib](#Matplotlib)  
-    *[requests](#requests)  
-    *[Spyder](#Spyder)  
-    *[webdriver](#webdriver)  
+
+
 
 ## 啟動
 ```
