@@ -23,7 +23,7 @@ jupyter notebook
 可以下 pwd 查看目前所在目錄
 指定路徑 fn = 'C:\\Users\\C940\\Day_Confirmation_Age_County_Gender_19CoV.json'
 
-
+本地路徑 fn = './Day_Confirmation_Age_County_Gender_19CoV.json'
 
 -----------------------------------------
 
