@@ -3,15 +3,12 @@
 [1. 啟動](#啟動)  
 [2. 安裝](#安裝)  
 [3. 安裝套件](#安裝套件)  
-
-
-
-[2. Numpy](#Numpy)  
-[3. Pandas](#Pandas)  
-[4. Matplotlib](#Matplotlib)  
-[5. requests](#requests)  
-[6. Spyder](#Spyder)  
-[7. webdriver](#webdriver)  
+	[2. Numpy](#Numpy)  
+	[3. Pandas](#Pandas)  
+	[4. Matplotlib](#Matplotlib)  
+	[5. requests](#requests)  
+	[6. Spyder](#Spyder)  
+	[7. webdriver](#webdriver)  
 
 
 課程  
