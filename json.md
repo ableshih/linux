@@ -26,7 +26,92 @@ jupyter notebook
 
 
 -----------------------------------------
+
 ```
+
+
+
+# json 來源
+
+1. 本地 陣列  
+2. 本地 json file  
+3. 網路 json file 要透過 import requests  
+
+
+
+## 本地 陣列
+```
+import json
+
+load_str = '[{"Country Name": "World", "Country Code": "WLD", "Year": "2000", "Numbers": "6117806174.56156"}, {"Country Name": "World", "Country Code": "WLD", "Year": "2000", "Numbers": "6117806174.56156"}]'
+p_data = json.loads(load_str)
+
+print(p_data)
+```
+
+## 本地 json file (read)
+```
+import json
+jn = "./aaa.json"
+
+with open(jn,'r') as load_f:
+    load_dict = json.load(load_f)
+          
+print(load_dict)
+```
+
+
+## 本地 json file (write)
+```
+import json
+
+js = [{"Country Name": "World", "Country Code": "WLD", "Year": "2000", "Numbers": "6117806174.56156"}, {"Country Name": "World", "Country Code": "WLD", "Year": "2010", "Numbers": "6894595189.85751"}, {"Country Name": "Angola", "Country Code": "AGO", "Year": "2000", "Numbers": "13926705.0"}]
+
+jk = "./aaaw.json"
+
+with open(jk, 'w') as save_f:
+    json.dump(js, save_f)
+```
+
+## 網路 json file 要透過 import requests
+```
+import requests
+import json
+
+url = 'https://od.cdc.gov.tw/eic/Day_Confirmation_Age_County_Gender_19CoV.json'
+
+with request.urlopen(url) as response:
+    data = json.load(response, encoding='utf-8')
+    
+print(data[:5]) # 印出前 5 筆 
+print('\n') # 空一行 
+print(data[5]) # 印出第 5 筆 
+print('\n') # 空一行 
+print(data[5]["性別"])
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 載入 json 
 ```
 例如 這一筆資料 是用 {}, 框起來，這一筆資料裡面有四組資料用 , 隔開
