@@ -99,6 +99,93 @@ print(data[5]["性別"])
 
 
 
+Json 模組裡的函式介紹 
+[1. dumps](#dumps)
+[2. loads](#loads)
+[3. dump](#dump)
+[4. load](#load)
+
+
+
+
+## dumps
+將 dict 型別的資料轉成 str，直接把 dict 型 寫入 json檔案 會發生報錯
+```
+import json
+
+nb = {'a':'100','b':'200','c':'300','d':'400'}  # 原始 dict
+
+jDumps = json.dumps(nb)   # 用 dumps 轉成 str
+
+print(nb, type(nb)) 
+
+print(jDumps, type(jDumps)) 
+
+```
+
+
+
+
+
+## loads
+用於將str型別的資料轉成dict  
+```
+import json
+
+nb = {'a':'100','b':'200','c':'300','d':'400'}  # 原始 dict
+
+jDumps = json.dumps(nb)   # 用 dumps 轉成 str
+jLoads = json.loads(jDumps) # 用 loads 轉成 dict
+
+print(nb, type(nb)) 
+
+print(jDumps, type(jDumps)) 
+
+print(jLoads, type(jLoads)) 
+```
+
+
+
+
+
+
+## dump
+用於將dict型別的資料轉成str，並寫入成 json檔案  
+```
+import json  
+nb = {'a':'100','b':'200','c':'300','d':'400'}  
+ef = ('./aaaaw.json')  
+# solution 1 
+jObj = json.dumps(nb)   
+with open(ef, "w") as f:  
+    f.write(jObj)  
+f.close()  
+# solution 2   
+json.dump(nb, open(ef, "w")) 
+
+fs = ('./aaaaw.json')  
+jObj = json.load(open(fs))   
+print(jObj) 
+print(type(jObj)) 
+
+```
+
+
+
+
+
+
+## load
+讀取 json 檔案  
+```
+import json
+
+fs = ('./aaaw.json')  
+jObj = json.load(open(fs))   
+print(jObj) 
+print(type(jObj)) 
+```
+
 
 
 
