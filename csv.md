@@ -5,7 +5,7 @@
 
 
 
-# encoding
+## encoding
 
 ```
 # 讀取 CSV File
@@ -21,7 +21,7 @@ print(df_big5)
 
 ```
 
-# 用 open 讀取檔案判斷，當檔案為 UTF-8 就印出
+## 用 open 讀取檔案判斷，當檔案為 UTF-8 就印出
 ```
 name = input('請輸入檔名：')
 
@@ -38,12 +38,12 @@ sepal_length,sepal_width,petal_length,petal_width,species
 
 ```
 
-# Big5 轉 UTF-8
+## Big5 轉 UTF-8
 ```
 with open("output4.csv", "r", encoding = "Big5") as inFile, open("utf8_output.csv", "w", encoding = "UTF-8") as outFile:
     outFile.write(inFile.read())
 ```
-# Big5 轉 UTF-8
+## Big5 轉 UTF-8
 ```
 # 開啟 Big5 輸入檔案
 inFile = open("output4.csv", "r", encoding = "Big5")
@@ -63,7 +63,7 @@ outFile.close()
 
 ```
 
-# csv 檔的內容讀取出來
+## csv 檔的內容讀取出來
 ```
 import csv
 
@@ -79,7 +79,7 @@ with open('./iii.csv', newline='') as csvfile:
 
 ```
 
-# 這個檔案內容的各個欄位是以冒號（:）來分隔的
+## 這個檔案內容的各個欄位是以冒號（:）來分隔的
 ```
 
 import csv
@@ -93,8 +93,8 @@ with open('./pw.txt', newline='') as csvfile:
 ```
 
 
-# 讀取成 Dictionary
-## 我們也可以將 csv 檔案的內容讀取進來之後，轉為 Python 的 dictionary 格式
+## 讀取成 Dictionary
+#### 我們也可以將 csv 檔案的內容讀取進來之後，轉為 Python 的 dictionary 格式
 ```
 import csv
 with open('output4.csv', newline='') as csvfile:
@@ -108,8 +108,8 @@ with open('output4.csv', newline='') as csvfile:
 
 ```
 
-# 寫入 CSV 檔案
-## 如果我們在程式中產生了表格的資料，想要儲存為 csv 檔案
+## 寫入 CSV 檔案
+#### 如果我們在程式中產生了表格的資料，想要儲存為 csv 檔案
 ```
 import csv
 
@@ -128,8 +128,8 @@ with open('output4.csv', 'w', newline='') as csvfile:
 
 
 
-# 指定分隔字元
-## 輸出 csv 檔案時也可以自行指定欄位的分隔字元
+## 指定分隔字元
+#### 輸出 csv 檔案時也可以自行指定欄位的分隔字元
 
 ```
 import csv
@@ -146,8 +146,8 @@ with open('output3.csv', 'w', newline='') as csvfile:
 ```
 
 
-# 一次寫入二維表格
-## 如果我們的資料是已經整理好的二維表格，也可以一次就把整張表格寫進 csv 檔案中
+## 一次寫入二維表格
+#### 如果我們的資料是已經整理好的二維表格，也可以一次就把整張表格寫進 csv 檔案中
 ```
 import csv
 
@@ -168,8 +168,8 @@ with open('output2.csv', 'w', newline='') as csvfile:
 
 
 
-# 寫入 Dictionary 
-## 如果我們在 Python 中的資料格式是 dictionary，也可以使用 csv.DictWriter 直接將 dictionary 寫入 csv 檔案中
+## 寫入 Dictionary 
+#### 如果我們在 Python 中的資料格式是 dictionary，也可以使用 csv.DictWriter 直接將 dictionary 寫入 csv 檔案中
 
 ```
 
