@@ -1,5 +1,6 @@
 PyQt5 基本教學 (1) 安裝 PyQt5，印出 Hello World!  
 https://clay-atlas.com/blog/2019/08/26/python-chinese-pyqt5-tutorial-install/  
+#### Anaconda3+pyqt5+Eric6 沒成功 資源少 別試
 
 ## 安裝與環境配置
 ```
