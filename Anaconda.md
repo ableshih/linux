@@ -17,7 +17,7 @@
 http://moocs.nccu.edu.tw/course/123/intro  
 
 
-
+# 快速註解 Ctrl + / 再按一次 反註解(取消)
 
 
 ## 啟動
