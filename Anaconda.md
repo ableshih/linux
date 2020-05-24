@@ -18,7 +18,7 @@ http://moocs.nccu.edu.tw/course/123/intro
 
 
 ## 快速註解 Ctrl + / 再按一次 反註解(取消)
-## Sublime Text 基礎熱鍵表(#Sublime)
+## [Sublime Text 基礎熱鍵表](#Sublime)
 
 ## 啟動
 ```
