@@ -21,7 +21,7 @@ pip install pyqt5-tools
 ```
 新表單 -> Main Window -> 建立
 左邊 Display Widgets -> Label (點選 拖拉到 MainWindow)
-檔案 -> 存檔 -> 檔案名稱 UI.ui
+檔案 -> 存檔 -> 檔案名稱 UI.ui # *.ui 是 xml 格式的檔案
 關閉也可不用關
 ```
 
