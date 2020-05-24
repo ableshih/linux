@@ -41,7 +41,7 @@ class MainWindow(QtWidgets.QMainWindow):
         super(MainWindow, self).__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.ui.Label.setText('Hello World!')
+        self.ui.Label.setText('Hello World!') # 不管Qt裡打什麼 改這行內容就會變
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication([])
