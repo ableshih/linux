@@ -110,5 +110,36 @@ class Ui_MainWindow(object):
 pyuic5 -o destination.py source.ui  
 -o是操作參數，表示要生成一個文件  
 
+```
 
+-----------------------
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+
+
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)  ### 加在下 ###
+    MainWindow.show()
+    sys.exit(app.exec_())
+-----------------------
+
+-----------------------
+在類中添加init方法，其實也是可以的，寫了初始化方法之後，
+在初始化方法中執行setupUI（），
+實例化之後就不需要再執行setupUI（）方法了
+
+class Ui_MainWindow(object):
+    def __init__(self):            ### 加在上
+        self.setupUi(MainWindow)   ### 加在上
+
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+
+    ui = Ui_MainWindow()
+    MainWindow.show()
+    sys.exit(app.exec_())
+-----------------------
+
+```
 
