@@ -106,3 +106,9 @@ class Ui_MainWindow(object):
 
 ```
 
+利用pyuic5將ui文件轉換為py  
+pyuic5 -o destination.py source.ui  
+-o是操作參數，表示要生成一個文件  
+
+
+
