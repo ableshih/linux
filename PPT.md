@@ -19,3 +19,16 @@
 顯示 GPS 座標 圖片
 
 廣告圖片 折扣 
+
+https://www.tianqiweiqi.com/python-tkinter-button.html  
+
+https://www.tutorialspoint.com/python3/tk_place.htm  
+
+https://www.jianshu.com/p/5c7a1af4aa53  
+
+http://effbot.org/tkinterbook/  
+
+python3 -m pip install --upgrade pip  
+python3 -m pip install --upgrade Pillow  
+
+
