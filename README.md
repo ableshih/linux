@@ -95,6 +95,62 @@ root.mainloop()
 
 https://www.learncodewithmike.com/2020/01/python-inheritance.html  
 
+## python 多子視窗
+```
+https://www.itread01.com/content/1547112810.html
+關於python GUI程式設計(Tkinter) 建立子視窗及在視窗上用圖片繪圖
+import tkinter as tk
+from PIL import Image, ImageTk 
+global attackTime
+attackTime=1
 
 
+    
+def show1():
+    top1=tk.Toplevel()
+    image = Image.open('1.jpg') 
+    img = ImageTk.PhotoImage(image)
+    canvas1 = tk.Canvas(top1, width = image.width*2 ,height = image.height*2, bg = 'white')
+    canvas1.create_image(0,0,image = img,anchor="nw")
+    canvas1.create_image(image.width,0,image = img,anchor="nw")
+    canvas1.pack()   
+    top1.mainloop()
+
+
+def show2():
+    top1=tk.Toplevel()
+    image = Image.open('3.jpg') 
+    img = ImageTk.PhotoImage(image)
+    #canvas = tk.Canvas(top1, width = image.width ,height = image.height, bg = 'white')
+    canvas=tk.Button(top1, image=img, command=show1)
+    canvas.pack()
+    #canvas.create_image(0,0,image = img,anchor="nw")
+    #canvas.pack()   
+    top1.mainloop()
+
+def callback():
+    top1.destroy() # 關閉 Tkinter 視窗
+'''
+# 圖片按鈕
+img=ImageTk.PhotoImage(Image.open (random_filename))
+button1=Button(base, image=img, command=callback)
+button1.pack()
+'''
+    
+    # base.destroy() # 關閉 Tkinter 視窗
+
+
+def showMessage():
+    top=tk.Toplevel()
+    l=tk.Label(top,text='Attacks cost '+str(attackTime)+' s',width=20)
+    l.pack()
+    top.mainloop()
+    
+root=tk.Tk()
+b1=tk.Button(root,text='start1',command=show1)
+b1.pack()
+b2=tk.Button(root,text='start2',command=show2)
+b2.pack()
+root.mainloop()
+```
 
