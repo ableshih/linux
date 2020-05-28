@@ -9,6 +9,6 @@ https://www.facebook.com/groups/266288716757871/
 https://news.sina.com.tw/article/20200330/34703520.html  
 南臺科技大學電子系李博明副教授  
 https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA/featured  
-
+https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA  
 
 
