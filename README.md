@@ -11,4 +11,4 @@ https://news.sina.com.tw/article/20200330/34703520.html
 https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA/featured  
 https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA  
 
-
+https://www.delftstack.com/zh-tw/howto/python-tkinter/  
