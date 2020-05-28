@@ -12,3 +12,6 @@ https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA/featured
 https://www.youtube.com/channel/UCcDrreWV8cQ7KEhfZuIEYkA  
 
 https://www.delftstack.com/zh-tw/howto/python-tkinter/  
+
+
+https://jennaweng0621.pixnet.net/blog/post/404168963  
