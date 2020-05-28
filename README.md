@@ -15,3 +15,16 @@ https://www.delftstack.com/zh-tw/howto/python-tkinter/
 
 
 https://jennaweng0621.pixnet.net/blog/post/404168963  
+
+
+https://www.tutorialspoint.com/python/tk_button.htm  
+
+https://www.tutorialspoint.com/get-method-for-dictionaries-in-python  
+
+http://kaiching.org/pydoing/py/python-library-tkinter.html  
+
+https://www.delftstack.com/zh-tw/howto/python-tkinter/how-to-close-a-tkinter-window-with-a-button/  
+
+
+
+
