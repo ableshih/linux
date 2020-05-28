@@ -153,4 +153,27 @@ b2=tk.Button(root,text='start2',command=show2)
 b2.pack()
 root.mainloop()
 ```
+https://www.delftstack.com/zh-tw/howto/python-tkinter/how-to-create-a-new-window-with-a-button-in-tkinter/  
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/364778/  
+Python實現定時自動關閉的tkinter視窗  
+https://www.luoow.com/dc_tw/103795132  
+
+點選按鈕關閉式窗  
+https://dotblogs.com.tw/ctosib/2016/11/18/150419  
+
+https://books.google.com.tw/books?id=rzuTDwAAQBAJ&pg=PR12&lpg=PR12&dq=python+tkinter+%E5%A4%9A%E5%AD%90%E8%A6%96%E7%AA%97&source=bl&ots=7-G_sn13gV&sig=ACfU3U0UX91_WoJP4-tIgzgb0LORAD45Sw&hl=zh-TW&sa=X&ved=2ahUKEwjG74Hs_dbpAhWSyosBHWDjAhU4FBDoATAHegQICxAB#v=onepage&q=python%20tkinter%20%E5%A4%9A%E5%AD%90%E8%A6%96%E7%AA%97&f=false  
+
+
+
+
+Python tkinter模块弹出窗口及传值回到主窗口操作详解  
+https://www.jb51.net/article/119817.htm  
+
+
+http://hk.voidcc.com/question/p-bdrdxleu-ber.html  
+
+
+
+
+
 
