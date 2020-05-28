@@ -26,5 +26,5 @@ http://kaiching.org/pydoing/py/python-library-tkinter.html
 https://www.delftstack.com/zh-tw/howto/python-tkinter/how-to-close-a-tkinter-window-with-a-button/  
 
 
-
+https://raw.githubusercontent.com/ableshih/linux/master/tk.ipynb  
 
