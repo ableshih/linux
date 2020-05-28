@@ -29,7 +29,7 @@ https://www.delftstack.com/zh-tw/howto/python-tkinter/how-to-close-a-tkinter-win
 https://raw.githubusercontent.com/ableshih/linux/master/tk.ipynb  
 
 
-
+## 顯示圖片
 ```
 # 開圖 按鍵 關視窗 無框
 import random, os
@@ -63,4 +63,34 @@ base.wm_attributes('-fullscreen','true') # 無框
 #app = Application(root)
 base.mainloop()
 ```
+
+## 開視窗
+```
+# ch8_11.py
+from tkinter import *
+import random
+
+root = Tk()
+root.title("ch8_11")
+
+msgYes, msgNo, msgExit = 1,2,3
+def MessageBox():                   # 建立對話方塊
+    msgType = random.randint(1,3)   # 隨機數產生對話方塊方式
+    if msgType == msgYes:           # 產生Yes字串
+        labTxt = 'Yes'
+    elif msgType == msgNo:          # 產生No字串
+        labTxt = 'No'
+    elif msgType == msgExit:        # 產生Exit字串
+        labTxt = 'Exit'    
+    tl = Toplevel()                 # 建立Toplevel視窗
+    tl.geometry("300x180")          # 建立對話方塊大小
+    tl.title("Message Box")
+    Label(tl,text=labTxt).pack(fill=BOTH,expand=True)
+
+btn = Button(root,text='Click Me',command = MessageBox)
+btn.pack()
+
+root.mainloop()
+```
+
 
