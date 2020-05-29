@@ -1,5 +1,5 @@
 
-
+```
 -----------------------
 scikit-learn algorithm cheat-sheet 科學學習 算法備忘單
 START 開始
@@ -56,10 +56,10 @@ Spectral Embedding 光譜嵌入
 LLE
 
 ==
-
+```
 
 # 鳶尾花
-
+```
 機器學習 鳶尾花
 強化學習 台科大 給一點小東西(球)就讓慢慢學會投籃
 
@@ -119,13 +119,14 @@ clustering
 開始 -> 資料 50筆 -> category沒有 -> quantity數量 ->
 
 
-
+```
 
 
 
 
 
 # 2
+```
 Scikit-Learn 
 
 基於
@@ -138,8 +139,9 @@ pip install scipy
 pip install -U scikit-learn (-U update)
 or 
 conda install scikit-learn
-
+```
 # 3
+```
 機器圖ful
 https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 
@@ -149,11 +151,11 @@ https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html
 監督式 regression 迴歸
 監督式 classification
 壓縮
-
+```
 
 
 # 4
-
+```
 iris
 '''
 from __future__ import print_function
@@ -177,17 +179,19 @@ knn = KNeighborsClassifier() # 引用訓練函式
 knn.fit(X_train, y_train) # 訓練
 print(knn.predict(X_test)) # 預測值 訓練
 print(y_test) # 原始的值 真實值
+```
 # 比出來不會百分百
 '''
 # 5 
 
 
-除 iris 外 其他的資料庫
-https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets
+除 iris 外 其他的資料庫  
+https://scikit-learn.org/stable/modules/classes.html#module-sklearn.datasets  
 
-破士頓房價 506筆 
+波士頓 房價 506筆 
 
 '''
+```
 from __future__ import print_function
 from sklearn import datasets
 from sklearn.linear_model import LinearRegression
@@ -203,8 +207,9 @@ model.fit(data_X, data_y)
 print(model.predict(data_X[:4, :])) # 用預測到的前四筆
 print(data_y[:4]) # 真實的前四筆
 
-
+```
 # 畫出 訓練資料
+```
 import matplotlib.pyplot as plt
 
 X, y = datasets.make_regression(n_samples=100, n_features=1, n_targets=1, noise=10) # 創造數據 100筆
@@ -212,8 +217,9 @@ plt.scatter(X, y)
 plt.show()
 
 '''
-
+```
 # 6 model 常用屬性與功能
+```
 '''
 from __future__ import print_function
 from sklearn import datasets
@@ -237,8 +243,9 @@ print(model.score(data_X, data_y)) # R^2 coefficient of determination
 
 
 '''
+```
 # 7 normalization 標準化數據
- 
+ ```
 取值 會影響 
 '''
 
@@ -265,8 +272,9 @@ import matplotlib.pyplot as plt # 畫圖
 
 X, y = make_classification(n_samples=300, n_features=2 , n_redundant=0, n_informative=2,
                            random_state=22, n_clusters_per_class=1, scale=100) # 產生300筆 2個屬性 2個相關 隨機22 
-
+```
 # 畫出 兩類 線性圖
+```
 plt.scatter(X[:, 0], X[:, 1], c=y)
 plt.show()
 '''
@@ -284,11 +292,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3) # 切割
 clf = SVC() #
 clf.fit(X_train, y_train) # 學習
 print(clf.score(X_test, y_test)) # 預測
+```
 # 印出準確百分比 0.9xx
 '''
 
 '''
 # 不用 scale
+```
 from __future__ import print_function
 from sklearn import preprocessing
 import numpy as np
@@ -301,18 +311,21 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.3) # 切割
 clf = SVC() #
 clf.fit(X_train, y_train) # 學習
 print(clf.score(X_test, y_test)) # 預測
+```
 # 印出準確百分比 0.48xx
 '''
 
 
 # 評價 
+```
 原始資料切割 分 訓練資料 測試資料
 交差驗證
-
+```
 # 8 cross validation 交叉驗證
 
 
 '''
+```
 from __future__ import print_function
 from sklearn.datasets import load_iris
 from sklearn.cross_validation import train_test_split
@@ -321,18 +334,20 @@ from sklearn.neighbors import KNeighborsClassifier
 iris = load_iris()
 X = iris.data
 y = iris.target
-
+```
 # test train split #
+```
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=4)
 knn = KNeighborsClassifier(n_neighbors=5) # 訓練 附近的5點的平衡
 knn.fit(X_train, y_train)
 y_pred = knn.predict(X_test)
 print(knn.score(X_test, y_test)) # 得到百分亡比 0.97xx
-
+```
 '''
 
 
 '''
+```
 from __future__ import print_function
 from sklearn.datasets import load_iris
 from sklearn.cross_validation import train_test_split
@@ -341,21 +356,22 @@ from sklearn.neighbors import KNeighborsClassifier
 iris = load_iris()
 X = iris.data
 y = iris.target
-
+```
 
 # 測 5 次 在平衡 
 # this is cross_val_score #
+```
 from sklearn.cross_validation import cross_val_score
 knn = KNeighborsClassifier(n_neighbors=5)
 scores = cross_val_score(knn, X, y, cv=5, scoring='accuracy')
 print(scores) # 印出5次 百分比 
 print(scores.mean()) # 印出 5次平衡 百分比 0.97xx
-
+```
 '''
 
 '''
 # 調參
-
+```
 from sklearn.datasets import load_iris
 from sklearn.cross_validation import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
@@ -363,34 +379,37 @@ from sklearn.neighbors import KNeighborsClassifier
 iris = load_iris()
 X = iris.data
 y = iris.target
-
+```
 
 # this is how to use cross_val_score to choose model and configs #
+```
 from sklearn.cross_validation import cross_val_score
 import matplotlib.pyplot as plt
 k_range = range(1, 31)
 k_scores = []
 for k in k_range:
     knn = KNeighborsClassifier(n_neighbors=k)
-
+```
 # 兩種方法擇一 得到13~18
+```
     scores = cross_val_score(knn, X, y, cv=10, scoring='accuracy') # for classification
     k_scores.append(scores.mean())
-
+```
 ##    loss = -cross_val_score(knn, X, y, cv=10, scoring='mean_squared_error') # for regression
 ##    k_scores.append(loss.mean())
-
+```
 plt.plot(k_range, k_scores)
 plt.xlabel('Value of K for KNN')
 plt.ylabel('Cross-Validated Accuracy')
 plt.show()
 
 '''
-
+```
 
 # 9 cross validation 交叉驗證
 # overfitting  過度擬合 離散 過度糾結 也會造成費時與不準確
 # 改變 SVC(gamma=0.01) 可得知
+```
 '''
 from __future__ import print_function
 from sklearn.learning_curve import  learning_curve
@@ -419,14 +438,14 @@ plt.ylabel("Loss")
 plt.legend(loc="best")
 plt.show()
 '''
-
+```
 
 
 # 10 cross validation 交叉驗證
 # 改善 overfitting
 
 '''
-
+```
 from __future__ import print_function
 from sklearn.learning_curve import  validation_curve
 from sklearn.datasets import load_digits
@@ -453,7 +472,7 @@ plt.xlabel("gamma")
 plt.ylabel("Loss")
 plt.legend(loc="best")
 plt.show()
-
+```
 # 會花不少時間運算 所以 gamma 值 最好是在 0.005~0.006之間
 
 '''
@@ -461,7 +480,7 @@ plt.show()
 # 11 保存 model
 
 '''
-
+```
 from __future__ import print_function
 from sklearn import svm
 from sklearn import datasets
@@ -470,32 +489,41 @@ clf = svm.SVC()
 iris = datasets.load_iris() # 分類器
 X, y = iris.data, iris.target
 clf.fit(X, y) # 訓練
-
+```
 # method 1: pickle
+```
 import pickle # 保存(存放)數據 
+```
 # save
+```
 with open('save/clf.pickle', 'wb') as f: # 存成 檔名為 clf.pickle  [write byte]wb
     pickle.dump(clf, f)
+```
 '''
 
 '''
+```
 from sklearn import svm
 from sklearn import datasets
 
 iris = datasets.load_iris() # 分類器
 X, y = iris.data, iris.target
-
+```
 # method 1: pickle
+```
 import pickle
-
+```
 # restore
+```
 with open('save/clf.pickle', 'rb') as f: # rb read byte
    clf2 = pickle.load(f)
    print(clf2.predict(X[0:1])) # 預測是否為 0 類的花
+   ```
 '''
 
 
 '''
+```
 from sklearn import svm
 from sklearn import datasets
 
@@ -503,14 +531,20 @@ clf = svm.SVC()
 iris = datasets.load_iris() # 分類器
 X, y = iris.data, iris.target
 clf.fit(X, y) # 訓練
-
+```
 # method 2: joblib
+```
 from sklearn.externals import joblib
+```
 # Save
+```
 joblib.dump(clf, 'save/clf.pkl')
+```
 # restore
+```
 clf3 = joblib.load('save/clf.pkl')
 print(clf3.predict(X[0:1]))
+```
 # joblib 會用多近程(process)多線程(thread)
 
 '''
