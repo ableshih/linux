@@ -174,6 +174,6 @@ http://hk.voidcc.com/question/p-bdrdxleu-ber.html
 
 
 
-
-
-
+http://samwhelp.github.io/book-ubuntu-qna/read/case/app/google-chrome/install  
+http://samwhelp.github.io/book-ubuntu-qna/read/case/app/google-chrome/  
+https://www.opencli.com/linux/ubuntu-install-sublime-text-3  
