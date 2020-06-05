@@ -1,3 +1,17 @@
+
+
+http://neural.cs.nthu.edu.tw/jang/books/javascript/regExp03.asp?title=9-3%20%E9%80%9A%E7%94%A8%E5%BC%8F%E7%9B%B8%E9%97%9C%E5%88%97%E8%A1%A8%5C%5C  
+https://ithelp.ithome.com.tw/articles/10197315  
+https://atedev.wordpress.com/2007/11/23/%E6%AD%A3%E8%A6%8F%E8%A1%A8%E7%A4%BA%E5%BC%8F-regular-expression/  
+http://120.105.184.250/cswang/thit/Linux/RegularExpression.htm  
+http://kaiching.org/pydoing/py/python-library-re.html  
+https://www.delftstack.com/zh-tw/tutorial/python-modules-tutorial/python-regular-expression/  
+http://sstsupman.blogspot.com/2012/11/blog-post.html  
+
+
+https://regex101.com/  
+
+
 ```
 正規表示式	說明及範例	比對不成立之字串
 /a/	含字母 “a” 的字串，例如 “ab”, “bac”, “cba”	“xyz”
