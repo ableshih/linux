@@ -19,3 +19,4 @@ from pandas.plotting import scatter_matrix
 https://datahub.io/machine-learning/sonar  
 
 
+https://www.cnpython.com/pypi/sonar
