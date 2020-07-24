@@ -20,7 +20,7 @@ CDate(Format(CInt(Me.TextBox1.Text), "0000/00/00"))
 
 把Excel內的Flash找出來另存的VBA程式碼
 Excel內涵Flash，可是不知道為何無法撥放
-'''
+```
     Dim tmpFileName As String, FileNumber As Integer
     Dim myFileId As Long
     Dim myArr() As Byte
@@ -65,13 +65,13 @@ Excel內涵Flash，可是不知道為何無法撥放
     MsgBox "以" & tmpFileName & "名字保存"
     
 End Sub
-'''
+```
 
 
 
 檢查字串是否有中文或全形字
 
-'''
+```
 Function ContainsChtString(str) As Boolean
     '檢查字串是否包含中文或全形字
     Dim i As Integer
@@ -85,19 +85,20 @@ Function ContainsChtString(str) As Boolean
     Next
     ContainsChtString = Rc
 End Function
-'''
+```
+
 判斷Binary方式計算長度(LenB)與一般方式計算長度(Len)是否相同，如果不同就是有中文或全形!!
-'''
+```
 LenB(StrConv(myString, vbFromUnicode)) > Len(myString) 
-'''
+```
 
 
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -109,9 +110,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -119,9 +120,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -129,9 +130,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -143,9 +144,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -153,17 +154,17 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -175,9 +176,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
@@ -185,9 +186,9 @@ LenB(StrConv(myString, vbFromUnicode)) > Len(myString)
 
 
 
-'''
+```
 
-'''
+```
 
 
 
