@@ -1,3 +1,4 @@
+```
 Daisy-chaining
 MST(Multi-Stream Technology)
 
@@ -309,6 +310,6 @@ Full HD = 1920 x 1080
 2200x1125x60x32=4.75G
 
 
-
+```
 
 
