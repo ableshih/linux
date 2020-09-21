@@ -17,52 +17,52 @@ Original file is located at
 # Author:   se7enXF
 # Github:   se7enXF
 # Date:     2019/2/19
-# Note:     此程序源自Qt官网文档！使用PySide2显示窗口，点击按钮随机显示不同语言的“hello world”
+# Note:     此程序源自Qt官網文檔！使用PySide2顯示窗口，點擊按鈕隨機顯示不同語言的“hello world”
 
 import sys
 import random
 from PySide2 import QtGui, QtWidgets, QtCore
 
 
-# 定义主窗口
+# 定義主窗口
 class MainWindow(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        # 设置主窗口大小
+        # 設置主窗口大小
         self.resize(400, 300)
-        # 设置主窗口标题
+        # 設置主窗口標題
         self.setWindowTitle("hello world")
 
-        # 定义不同语言
+        # 定義不同語言
         self.hello = ["Hallo Welt", "你好世界！", "Hola Mundo", "Привет мир", "Hello world"]
 
-        # 定义按钮
+        # 定義按鈕
         self.button = QtWidgets.QPushButton("Click me!")
 
-        # 定义标签
+        # 定義標籤
         self.text = QtWidgets.QLabel("Hello World")
-        # 文字居中对齐
+        # 文字居中對齊
         self.text.setAlignment(QtCore.Qt.AlignCenter)
 
-        # 定义布局，垂直分布
+        # 定義佈局，垂直分佈
         self.layout = QtWidgets.QVBoxLayout()
 
-        # 在布局上添加文字
+        # 在佈局上添加文字
         self.layout.addWidget(self.text)
-        # 在布局上添加按钮
+        # 在佈局上添加按鈕
         self.layout.addWidget(self.button)
-        # 在主窗口上布置布局
+        # 在主窗口上佈置佈局
         self.setLayout(self.layout)
 
-        # 添加槽链接
+        # 添加槽鏈接
         self.button.clicked.connect(self.magic)
 
-    # 定义槽函数
+    # 定義槽函數
     def magic(self):
         self.text.setText(random.choice(self.hello))
 
 
-# 以下是主程序入口，格式基本固定，无须修改
+# 以下是主程序入口，格式基本固定，無須修改
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
     window = MainWindow()
