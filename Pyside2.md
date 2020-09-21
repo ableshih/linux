@@ -60,6 +60,26 @@ p2.py
 ```
 
 
+
+最簡單的視窗
+```
+##!venv/bin/python 3
+
+import sys
+
+from PySide2 import QtWidgets
+
+if '__main__' == __name__:
+    app = QtWidgets.QApplication(sys.argv)
+    w = QtWidgets.QMainWindow()
+    w.show()
+
+    ret = app.exec_()
+    sys.exit(ret)
+```
+
+
+
 ```
 # -*- coding: utf-8 -*-
 """PySide2.ipynb
