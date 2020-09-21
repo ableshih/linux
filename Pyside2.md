@@ -13,7 +13,7 @@ https://zhuanlan.zhihu.com/p/75637361
 https://doc.qt.io/qtforpython/PySide2/QtGui/index.html
 使用pyside-uic 把.ui 文件轉為.py 文件
 
-
+# 方法一
 
 1. 安裝
 ```
@@ -57,7 +57,69 @@ if __name__ == "__main__":
 6. 執行 py (顯示結果)
 ```
 p2.py
+
+
+
 ```
+```
+NameError: name 'QIODevice' is not defined
+from PySide2.QtCore import QIODevice
+```
+# 方法二 QUILoader
+
+1. 安裝
+```
+pip install pyside2
+```
+
+2. 設計 UI
+```
+C:\Users\V570\AppData\Roaming\Python\Python38\Scripts\pyside2-designer.exe
+```
+
+3. 設計 UI ```存檔```
+
+4. 設計 py
+```
+import sys
+from PySide2.QtUiTools import QUiLoader
+from PySide2.QtWidgets import QApplication
+#from PySide2.QtCore import QFile
+from PySide2.QtCore import QFile, QIODevice
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+
+    ui_file_name = "mainwindow.ui"
+    ui_file = QFile(ui_file_name)
+    if not ui_file.open(QIODevice.ReadOnly):
+        print("Cannot open {}: {}".format(ui_file_name, ui_file.errorString()))
+        sys.exit(-1)
+    loader = QUiLoader()
+    window = loader.load(ui_file)
+    ui_file.close()
+    if not window:
+        print(loader.errorString())
+        sys.exit(-1)
+    window.show()
+
+    sys.exit(app.exec_())
+```
+
+5. 執行 py (顯示結果)
+```
+pl.py
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
