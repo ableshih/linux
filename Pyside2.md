@@ -15,6 +15,51 @@ https://doc.qt.io/qtforpython/PySide2/QtGui/index.html
 
 
 
+1. 安裝
+```
+pip install pyside2
+```
+
+2. 設計 UI
+```
+C:\Users\V570\AppData\Roaming\Python\Python38\Scripts\pyside2-designer.exe
+```
+
+3. 設計 UI ```存檔```
+
+4. 轉檔
+```
+C:\Users\V570\Desktop>C:\Users\V570\AppData\Roaming\Python\Python38\Scripts\pyside2-uic mainwindow.ui > ui_mainwindow.py
+```
+
+5. 設計 py
+```
+import sys
+from PySide2.QtWidgets import QApplication, QMainWindow
+from PySide2.QtCore import QFile
+from ui_mainwindow import Ui_MainWindow
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super(MainWindow, self).__init__()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+
+if __name__ == "__main__":
+    app = QApplication(sys.argv)
+
+    window = MainWindow()
+    window.show()
+
+    sys.exit(app.exec_())
+```
+
+6. 執行 py (顯示結果)
+```
+p2.py
+```
+
+
 ```
 # -*- coding: utf-8 -*-
 """PySide2.ipynb
