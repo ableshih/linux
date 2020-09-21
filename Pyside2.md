@@ -13,7 +13,7 @@ https://zhuanlan.zhihu.com/p/75637361
 https://doc.qt.io/qtforpython/PySide2/QtGui/index.html
 使用pyside-uic 把.ui 文件轉為.py 文件
 
-# 方法一
+# 方法一 使用 pyside2-uic: 將 .ui檔案編譯成python原始碼，直接import 並使用
 
 1. 安裝
 ```
@@ -65,7 +65,7 @@ p2.py
 NameError: name 'QIODevice' is not defined
 from PySide2.QtCore import QIODevice
 ```
-# 方法二 QUILoader
+# 方法二 QUILoader 使用QUILoader：將建立好的 .ui 以動態的方式runtime的import到程式中
 
 1. 安裝
 ```
