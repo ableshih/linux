@@ -111,7 +111,44 @@ pl.py
 ```
 
 
+# 方法三 Qt Library 直接畫
+```
+#!venv/bin/python3
+import sys
 
+from PySide2 import QtWidgets
+from PySide2.QtWidgets import QLabel
+from PySide2.QtWidgets import QMainWindow
+from PySide2.QtWidgets import QPushButton
+
+
+class MainWindow(QMainWindow):
+    def __init__(self, parent=None):
+        """Main window, holding all user interface including.
+
+        Args:
+          parent: parent class of main window
+        Returns:
+          None
+        Raises:
+          None
+        """
+        super(MainWindow, self).__init__(parent)
+        self._width = 800
+        self._height = 600
+        self._title = QLabel('PySide2 is Great', self)
+        self._exit_btn = QPushButton('Exit', self)
+
+        self.setMinimumSize(self._width, self._height)
+
+if '__main__' == __name__:
+    app = QtWidgets.QApplication(sys.argv)
+    w = MainWindow()
+    w.show()
+
+    ret = app.exec_()
+    sys.exit(ret)
+```
 
 
 
