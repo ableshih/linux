@@ -1,3 +1,10 @@
+
+https://medium.com/bucketing/pyside2-pyqt-tutorial-3c2be590bc6a
+
+#
+#
+
+
 C:\Users\V570\AppData\Roaming\Python\Python38\site-packages\PySide2
 
 
