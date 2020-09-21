@@ -1,3 +1,20 @@
+C:\Users\V570\AppData\Roaming\Python\Python38\site-packages\PySide2
+
+
+C:\Users\V570\AppData\Roaming\Python\Python38\Scripts
+
+ui to py
+pyside2-uic.exe
+
+GUI
+pyside2-designer.exe
+
+https://zhuanlan.zhihu.com/p/75637361
+https://doc.qt.io/qtforpython/PySide2/QtGui/index.html
+使用pyside-uic 把.ui 文件轉為.py 文件
+
+
+
 ```
 # -*- coding: utf-8 -*-
 """PySide2.ipynb
