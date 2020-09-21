@@ -1,3 +1,4 @@
+```
 # -*- coding: utf-8 -*-
 """PySide2.ipynb
 
@@ -67,3 +68,6 @@ if __name__ == '__main__':
     window = MainWindow()
     window.show()
     sys.exit(app.exec_())
+
+
+```
